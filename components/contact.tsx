@@ -122,7 +122,7 @@ export default function Contact() {
             <div className="space-y-6">
                           <Link
                 target="_blank"
-                href="https://www.google.pl/maps/place/Kr%C4%99garstwo+Terapia+manualna+Hirudoterapia+Pijawki/@51.9258106,20.1825219,2704m/data=!3m1!1e3!4m14!1m7!3m6!1s0x4719612f71ce09d7:0x2d2bef691c7af914!2sMotoklinika!8m2!3d51.9386256!4d20.1791448!16s%2Fg%2F11h0vpw24d!3m5!1s0x4719613519ad2f81:0x377125061fa242bc!8m2!3d51.9190907!4d20.1733355!16s%2Fg%2F11hyxk3jxx!5m1!1e4?entry=ttu"
+                href="https://www.google.com/maps/place/Warszawa/@52.2330969,20.8962727,47744m/data=!3m2!1e3!4b1!4m6!3m5!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287!16zL20vMDgxbV8?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
                 className="block no-underline text-inherit"
               >
                 <div className="flex items-start space-x-4 hover:bg-gray-100 p-2 rounded-lg transition">
@@ -176,7 +176,7 @@ export default function Contact() {
 
             <div className="mt-8">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.6466122348934!2d20.170760576919182!3d51.91909398054432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4719613519ad2f81%3A0x377125061fa242bc!2sKr%C4%99garstwo%20Terapia%20manualna%20Hirudoterapia%20Pijawki!5e1!3m2!1spl!2spl!4v1752854407227!5m2!1spl!2spl" className="w-full h-[240px] rounded-lg shadow-lg" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207906.7659373782!2d20.896272716687566!3d52.23309689902131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e1!3m2!1spl!2spl!4v1753012885933!5m2!1spl!2spl" className="w-full h-[240px] rounded-lg shadow-lg" loading="lazy"></iframe>
                 
              
             </div>

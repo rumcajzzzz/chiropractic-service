@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link"
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -69,7 +71,15 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        <div className="flex justify-center my-4">
+          <Link href="https://rumcajzdev.netlify.app" className="underline">
+                Designed and developed by rumcajzdev
+          </Link>
+        </div>
+        
       </div>
+      
     </footer>
   )
 }
