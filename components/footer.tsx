@@ -74,12 +74,10 @@ export default function Footer() {
 
         <div className="flex justify-center my-4">
           <Link href="https://rumcajzdev.netlify.app" className="underline">
-                Designed and developed by rumcajzdev
+            Designed and developed by rumcajzdev
           </Link>
         </div>
-        
       </div>
-      
     </footer>
   )
 }

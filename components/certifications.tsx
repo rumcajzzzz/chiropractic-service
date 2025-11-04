@@ -70,7 +70,7 @@ export default function Certifications() {
       image: "7.png",
       therapist: "Mgr Piotr Nowak",
     },
-  ] 
+  ]
 
   const licenses = [
     {

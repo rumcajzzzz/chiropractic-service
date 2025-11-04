@@ -32,16 +32,12 @@ export default function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <img
-              src="3.jpg"
-              alt="Nasz gabinet"
-              className="rounded-2xl shadow-lg w-full h-auto"
-            />
+            <img src="3.jpg" alt="Nasz gabinet" className="rounded-2xl shadow-lg w-full h-auto" />
           </div>
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900">Ponad 15 lat doświadczenia w naturalnym leczeniu</h3>
             <p className="text-gray-600 text-lg">
-                pół składa się z wykwalifikowanych terapeutów z wieloletnim doświadczeniem w dziedzinie medycyny
+              pół składa się z wykwalifikowanych terapeutów z wieloletnim doświadczeniem w dziedzinie medycyny
               naturalnej. Specjalizujemy się w holistycznym podejściu do zdrowia, łącząc tradycyjne metody z
               nowoczesnymi technikami terapeutycznymi.
             </p>
