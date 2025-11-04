@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       ref={heroRef}
-      className="fade-in min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat"
+      className="fade-in min-h-screen flex items-center justify-center relative bg-cover bg-center bg-no-repeat pt-20"
       style={{ backgroundImage: "url('/2.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/40"></div>

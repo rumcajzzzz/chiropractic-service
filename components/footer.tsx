@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,7 +9,11 @@ export default function Footer() {
       <div className="container-max">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Naturalne Leczenie</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-16 h-16 m-auto">
+                <Image src="/logo.png" alt="Naturalne Leczenie Logo" fill className="object-contain" />
+              </div>
+            </div>
             <p className="text-gray-300 mb-4">
               Profesjonalne terapie naturalne dla Twojego zdrowia i dobrego samopoczucia.
             </p>
@@ -74,12 +79,10 @@ export default function Footer() {
 
         <div className="flex justify-center my-4">
           <Link href="https://rumcajzdev.netlify.app" className="underline">
-                Designed and developed by rumcajzdev
+            Designed and developed by rumcajzdev
           </Link>
         </div>
-        
       </div>
-      
     </footer>
   )
 }
