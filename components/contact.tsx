@@ -2,7 +2,6 @@
 
 import Link from "next/link"
 import type React from "react"
-
 import { useEffect, useRef, useState } from "react"
 
 export default function Contact() {
@@ -53,6 +52,7 @@ export default function Contact() {
         <p className="section-subtitle">Skontaktuj się z nami, aby umówić wizytę lub zadać pytanie</p>
 
         <div className="grid lg:grid-cols-2 gap-24">
+          {/* Formularz */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Napisz do nas</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -117,38 +117,33 @@ export default function Contact() {
             </form>
           </div>
 
+          {/* Dane kontaktowe */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Dane kontaktowe</h3>
             <div className="space-y-6">
-                          <Link
-                target="_blank"
-                href="https://www.google.com/maps/place/Warszawa/@52.2330969,20.8962727,47744m/data=!3m2!1e3!4b1!4m6!3m5!1s0x471ecc669a869f01:0x72f0be2a88ead3fc!8m2!3d52.2296756!4d21.0122287!16zL20vMDgxbV8?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
-                className="block no-underline text-inherit"
-              >
-                <div className="flex items-start space-x-4 hover:bg-gray-100 p-2 rounded-lg transition">
-                  <div className="text-green-600 text-xl">📍</div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">Adres</h4>
-                    <p className="text-gray-600">
-                      ul. Zdrowia 123
-                      <br />
-                      00-001 Warszawa
-                    </p>
-                  </div>
+              <div className="flex items-start space-x-4">
+                <div className="text-green-600 text-xl">📍</div>
+                <div>
+                  <h4 className="font-semibold text-gray-900">Adres</h4>
+                  <p className="text-gray-600">
+                    Strobów 2 n
+                    <br />
+                    96-100 Skierniewice
+                  </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link href="tel:+48123456789" className="block no-underline text-inherit">
+              <a href="tel:+48605346966" className="block no-underline text-inherit">
                 <div className="flex items-start space-x-4 hover:bg-gray-100 p-2 rounded-lg transition">
                   <div className="text-green-600 text-xl">📞</div>
                   <div>
                     <h4 className="font-semibold text-gray-900">Telefon</h4>
-                    <p className="text-gray-600">+48 123 456 789</p>
+                    <p className="text-gray-600">605 346 966</p>
                   </div>
                 </div>
-              </Link>
+              </a>
 
-              <Link href="mailto:kontakt@naturalneleczenie.pl" className="block no-underline text-inherit">
+              <a href="mailto:kontakt@naturalneleczenie.pl" className="block no-underline text-inherit">
                 <div className="flex items-start space-x-4 hover:bg-gray-100 p-2 rounded-lg transition">
                   <div className="text-green-600 text-xl">✉️</div>
                   <div>
@@ -156,29 +151,28 @@ export default function Contact() {
                     <p className="text-gray-600">kontakt@naturalneleczenie.pl</p>
                   </div>
                 </div>
-              </Link>
+              </a>
 
               <div className="flex items-start space-x-4">
                 <div className="text-green-600 text-xl">🕒</div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Godziny otwarcia</h4>
                   <p className="text-gray-600">
-                    Pon-Pt: 9:00 - 18:00
+                    Pon-Pt: 17:00 - 20:00
                     <br />
-                    Sob: 9:00 - 14:00
-                    <br />
-                    Ndz: zamknięte
+                    Sob: po uzgodnieniu
                   </p>
                 </div>
               </div>
-
             </div>
 
+            {/* Mapa Google */}
             <div className="mt-8">
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207906.7659373782!2d20.896272716687566!3d52.23309689902131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e1!3m2!1spl!2spl!4v1753012885933!5m2!1spl!2spl" className="w-full h-[240px] rounded-lg shadow-lg" loading="lazy"></iframe>
-                
-             
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2581.965753127464!2d20.1825412!3d51.9662065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471d8e6e5d1e24d9%3A0x6d29b4d0a0e2d3fa!2sStrob%C3%B3w%202%20n%2C%2096-100%20Skierniewice!5e0!3m2!1spl!2spl!4v1762787393843!5m2!1spl!2spl"
+                className="w-full h-[240px] rounded-lg shadow-lg"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>

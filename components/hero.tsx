@@ -36,6 +36,17 @@ export default function Hero() {
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
           Profesjonalne terapie manualne, kręgarstwo i leczenie pijawkami w Twoim mieście
         </p>
+        <p className="inline-block text-white font-semibold rounded-lg mb-2">
+          <a
+            href="https://www.facebook.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className=""
+          >
+            Polub naszą stronę i odbierz 25% rabatu!
+          </a> 
+         
+        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a href="#kontakt" className="btn-primary">
             Umów wizytę

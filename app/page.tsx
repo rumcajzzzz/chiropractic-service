@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import About from "@/components/about"
+import Certifications from "@/components/certifications"
 import Services from "@/components/services"
 import Testimonials from "@/components/testimonials"
 import FAQ from "@/components/faq"
@@ -13,7 +14,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      {/* <Certifications /> */}
+      <Certifications />
       <Services />
       <Testimonials />
       <FAQ />

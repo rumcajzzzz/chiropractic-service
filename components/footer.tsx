@@ -56,9 +56,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Kontakt</h4>
             <div className="space-y-2 text-gray-300">
-              <p>ul. Zdrowia 123, 00-001 Warszawa</p>
-              <p>Tel: +48 123 456 789</p>
-              <p>Email: kontakt@naturalneleczenie.pl</p>
+              <p>Strobów 2 n, 96-100 Skierniewice</p>
+              <p>Tel: <a href="tel:+48605346966" className="hover:underline">605 346 966</a></p>
+              <p>Email: <a href="mailto:kontakt@naturalneleczenie.pl" className="hover:underline">kontakt@naturalneleczenie.pl</a></p>
             </div>
           </div>
         </div>

@@ -166,7 +166,7 @@ export default function Certifications() {
         </div>
 
         {/* Sekcja członkostwa */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
+        {/* <div className="bg-white rounded-2xl p-8 shadow-lg">
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-6">Członkostwa w organizacjach</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="text-center">
@@ -194,15 +194,15 @@ export default function Certifications() {
               <h4 className="font-semibold text-gray-900 text-sm">Izba Lekarska</h4>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">
             Wszystkie nasze certyfikaty i licencje są aktualne i regularnie odnawiane zgodnie z wymogami prawa.
           </p>
-          <a href="#kontakt" className="btn-primary">
+          {/* <a href="#kontakt" className="btn-primary">
             Sprawdź nasze kwalifikacje
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

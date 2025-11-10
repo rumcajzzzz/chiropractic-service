@@ -33,6 +33,13 @@ export default function Services() {
       image: "12.jpg",
     },
     {
+      title: "Hirudoterapia – stawianie pijawek",
+      description:
+        "Naturalna metoda leczenia pijawkami medycznymi, wspomagająca oczyszczanie organizmu, poprawę krążenia i regenerację tkanek.",
+      icon: "🩺",
+      image: "10.jpg",
+    },
+    {
       title: "Terapia manualna",
       description:
         "Delikatne techniki manualne wspierające naturalne procesy regeneracyjne organizmu. Leczenie napięć mięśniowych.",
@@ -40,26 +47,23 @@ export default function Services() {
       image: "9.jpg",
     },
     {
-      title: "Hirudoterapia",
-      description: "Leczenie pijawkami medycznymi. Naturalna metoda oczyszczania organizmu i poprawy krążenia krwi.",
-      icon: "🩺",
-      image: "10.jpg",
-    },
-    {
       title: "Konsultacje",
-      description: "Kompleksowa diagnostyka i dobór odpowiedniej terapii. Indywidualne podejście do każdego pacjenta.",
+      description:
+        "Kompleksowa diagnostyka i dobór odpowiedniej terapii. Indywidualne podejście do każdego pacjenta.",
       icon: "💬",
       image: "11.jpg",
-    },
+    }
   ]
 
   return (
     <section id="uslugi" ref={servicesRef} className="fade-in section-padding bg-gray-50">
       <div className="container-max">
         <h2 className="section-title">Nasze usługi</h2>
-        <p className="section-subtitle">Kompleksowe terapie naturalne dostosowane do Twoich potrzeb</p>
+        <p className="section-subtitle">
+          Kompleksowe terapie naturalne dostosowane do Twoich potrzeb
+        </p>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
           {services.map((service, index) => (
             <div key={index} className="card text-center">
               <div className="text-4xl mb-4">{service.icon}</div>
@@ -75,6 +79,9 @@ export default function Services() {
         </div>
 
         <div className="text-center mt-12">
+          <p className="text-green-600 font-semibold mb-4">
+            Polub naszą stronę i otrzymaj 25% rabatu!
+          </p>
           <a href="#kontakt" className="btn-primary">
             Umów konsultację
           </a>
